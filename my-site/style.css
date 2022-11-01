@@ -14,11 +14,26 @@ h1{
 #botonUno{
     background-color: aquamarine;
 }
-/*Selectores de pseudo clase*/
+/*Selector de atributos*/
+a[href*="hubspot"]{
+    font-style:italic;
+}
+
+[href*="twitter"]{
+    font-style:italic;
+
+ }
+
+/*Selector de pseudo clase*/
 li a:link{
     color: green;
 }
 li a:visited{
     color: orange;
 
+}
+/*Selector por parentesco*/
+ul>li{
+    background-color: beige;
+    
 }
