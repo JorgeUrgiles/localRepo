@@ -1,0 +1,24 @@
+/*Selector universal*/
+*{
+    font-size: 6mm;
+}
+/*Selector de tipo*/
+h1{
+   background-color: brown;
+}
+/*Selector de clase*/
+.prueba{
+    color: blue;
+}
+/*Selector id*/
+#botonUno{
+    background-color: aquamarine;
+}
+/*Selectores de pseudo clase*/
+li a:link{
+    color: green;
+}
+li a:visited{
+    color: orange;
+
+}
